@@ -1,0 +1,409 @@
+distributor:
+    routes:
+        71565645-7d94-4df9-a9c0-a971c712220e:
+            uuid: 71565645-7d94-4df9-a9c0-a971c712220e
+            weight: 10000
+            value:
+                type: salesforce
+                pass: ''
+                config:
+                    salesforce:
+                        enabled: true
+                        async: inherit
+                        disableStorage: inherit
+                        enableDataProviders:
+                            type: all
+                            config:
+                                all: {  }
+                        gate:
+                            type: 'true'
+                            config:
+                                'true': {  }
+                        data:
+                            fieldMap:
+                                fields:
+                                    5cd17c18-96a4-4b09-a1fd-df80dc1a2deb:
+                                        uuid: 5cd17c18-96a4-4b09-a1fd-df80dc1a2deb
+                                        weight: 10000
+                                        key: oid
+                                        value:
+                                            data:
+                                                type: constant
+                                                config:
+                                                    constant:
+                                                        value: ''
+                                            modifiers: {  }
+                                    fb49b6a8-486e-4c22-a6f6-ccb81dbc948b:
+                                        uuid: fb49b6a8-486e-4c22-a6f6-ccb81dbc948b
+                                        weight: 10100
+                                        key: debug
+                                        value:
+                                            data:
+                                                type: 'null'
+                                                config:
+                                                    'null': {  }
+                                            modifiers: {  }
+                                    d70dc1de-f17b-44ff-9e01-8cc94379de14:
+                                        uuid: d70dc1de-f17b-44ff-9e01-8cc94379de14
+                                        weight: 10200
+                                        key: debugEmail
+                                        value:
+                                            data:
+                                                type: 'null'
+                                                config:
+                                                    'null': {  }
+                                            modifiers: {  }
+                                    5c0d1774-52c7-446d-9d50-4778cb17bbff:
+                                        uuid: 5c0d1774-52c7-446d-9d50-4778cb17bbff
+                                        weight: 10300
+                                        key: recordType
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: record_type
+                                            modifiers: {  }
+                                    809a3bc7-91ab-49a7-889c-61bf4d22f74d:
+                                        uuid: 809a3bc7-91ab-49a7-889c-61bf4d22f74d
+                                        weight: 10400
+                                        key: lead_source
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: lead_source
+                                            modifiers: {  }
+                                    441f2348-dcb5-472b-9157-3f4516fd5179:
+                                        uuid: 441f2348-dcb5-472b-9157-3f4516fd5179
+                                        weight: 10500
+                                        key: first_name
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: first_name
+                                            modifiers: {  }
+                                    1597818b-c504-459f-b4c6-7e48b87ac6ba:
+                                        uuid: 1597818b-c504-459f-b4c6-7e48b87ac6ba
+                                        weight: 10600
+                                        key: last_name
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: last_name
+                                            modifiers: {  }
+                                    83c9b488-40fb-4703-ae99-6c593edc11a5:
+                                        uuid: 83c9b488-40fb-4703-ae99-6c593edc11a5
+                                        weight: 10700
+                                        key: email
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: email
+                                            modifiers: {  }
+                                    3f68198a-1c3c-45cf-b0b8-5d43eb1b4db7:
+                                        uuid: 3f68198a-1c3c-45cf-b0b8-5d43eb1b4db7
+                                        weight: 10800
+                                        key: company
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: company
+                                            modifiers: {  }
+                                    827eb1ee-d0fe-4fbc-a6f1-189a98cee06d:
+                                        uuid: 827eb1ee-d0fe-4fbc-a6f1-189a98cee06d
+                                        weight: 10900
+                                        key: city
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: city
+                                            modifiers: {  }
+                                    71632698-774a-4e1f-96f9-806d4adb1245:
+                                        uuid: 71632698-774a-4e1f-96f9-806d4adb1245
+                                        weight: 11000
+                                        key: country_code
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: country_code
+                                            modifiers: {  }
+                                    173671c9-4c23-4c79-975a-068bc65839c6:
+                                        uuid: 173671c9-4c23-4c79-975a-068bc65839c6
+                                        weight: 11100
+                                        key: state_code
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: state_code
+                                            modifiers: {  }
+                                    9fac229c-0efc-426b-a1c6-3a55315ec589:
+                                        uuid: 9fac229c-0efc-426b-a1c6-3a55315ec589
+                                        weight: 11200
+                                        key: saluation
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: salutation
+                                            modifiers: {  }
+                                    a43b1ca0-420f-4b98-a14c-7ffdddf0fbf2:
+                                        uuid: a43b1ca0-420f-4b98-a14c-7ffdddf0fbf2
+                                        weight: 11300
+                                        key: title
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: title
+                                            modifiers: {  }
+                                    aa0edd08-e7ec-4480-b5ca-0266f7758aae:
+                                        uuid: aa0edd08-e7ec-4480-b5ca-0266f7758aae
+                                        weight: 11400
+                                        key: url
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: url
+                                            modifiers: {  }
+                                    35c3b64c-2966-44ef-a990-8c42de988da8:
+                                        uuid: 35c3b64c-2966-44ef-a990-8c42de988da8
+                                        weight: 11500
+                                        key: phone
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: phone
+                                            modifiers: {  }
+                                    98204f4a-9cbe-4b37-92ed-feaf65375ce6:
+                                        uuid: 98204f4a-9cbe-4b37-92ed-feaf65375ce6
+                                        weight: 11600
+                                        key: mobile
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: mobile
+                                            modifiers: {  }
+                                    d0cab4de-6804-4ec9-af00-9c52ad36bf1a:
+                                        uuid: d0cab4de-6804-4ec9-af00-9c52ad36bf1a
+                                        weight: 11700
+                                        key: fax
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: fax
+                                            modifiers: {  }
+                                    92fd3c12-dff8-4971-b91c-21bc9aa11daf:
+                                        uuid: 92fd3c12-dff8-4971-b91c-21bc9aa11daf
+                                        weight: 11800
+                                        key: street
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: street
+                                            modifiers: {  }
+                                    60b66fe8-6b6d-43c2-aa94-67765bf8eb41:
+                                        uuid: 60b66fe8-6b6d-43c2-aa94-67765bf8eb41
+                                        weight: 11900
+                                        key: zip
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: zip
+                                            modifiers: {  }
+                                    ca1b31c5-4413-4cfb-a798-306226163af6:
+                                        uuid: ca1b31c5-4413-4cfb-a798-306226163af6
+                                        weight: 12000
+                                        key: country
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: country
+                                            modifiers: {  }
+                                    1573f727-d522-49f3-85d2-81f3ed184b25:
+                                        uuid: 1573f727-d522-49f3-85d2-81f3ed184b25
+                                        weight: 12100
+                                        key: state
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: state
+                                            modifiers: {  }
+                                    4967580d-c06f-47b8-9d07-48a183b256b8:
+                                        uuid: 4967580d-c06f-47b8-9d07-48a183b256b8
+                                        weight: 12200
+                                        key: industry
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: industry
+                                            modifiers: {  }
+                                    c73010c2-d5a5-4055-b71d-83c38c2a3484:
+                                        uuid: c73010c2-d5a5-4055-b71d-83c38c2a3484
+                                        weight: 12300
+                                        key: rating
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: rating
+                                            modifiers: {  }
+                                    d2ad9509-c291-4e2d-b604-20a019530f55:
+                                        uuid: d2ad9509-c291-4e2d-b604-20a019530f55
+                                        weight: 12400
+                                        key: currency
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: currency
+                                            modifiers: {  }
+                                    ce40cf51-8ede-456a-97ac-8195c0a94b8f:
+                                        uuid: ce40cf51-8ede-456a-97ac-8195c0a94b8f
+                                        weight: 12500
+                                        key: revenue
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: revenue
+                                            modifiers: {  }
+                                    74468056-f882-413a-91bc-333221311ca2:
+                                        uuid: 74468056-f882-413a-91bc-333221311ca2
+                                        weight: 12600
+                                        key: employees
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: employees
+                                            modifiers: {  }
+                                    17376343-a34b-4614-84ee-4aa16d2a980b:
+                                        uuid: 17376343-a34b-4614-84ee-4aa16d2a980b
+                                        weight: 12700
+                                        key: Campaign_ID
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: campaign_id
+                                            modifiers: {  }
+                                    b6d6e229-fa84-44c6-aef6-955fd73a2e07:
+                                        uuid: b6d6e229-fa84-44c6-aef6-955fd73a2e07
+                                        weight: 12800
+                                        key: member_status
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: member_status
+                                            modifiers: {  }
+                                    23b44657-e92f-432b-be71-edae5d953c01:
+                                        uuid: 23b44657-e92f-432b-be71-edae5d953c01
+                                        weight: 12900
+                                        key: emailOptOut
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: email_opt_out
+                                            modifiers: {  }
+                                    0aea2d7e-9c1e-4376-a507-cc6cbd237aa4:
+                                        uuid: 0aea2d7e-9c1e-4376-a507-cc6cbd237aa4
+                                        weight: 13000
+                                        key: faxOptOut
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: fax_opt_out
+                                            modifiers: {  }
+                                    4334e644-8bfe-44ca-b99c-37ab21faa2f9:
+                                        uuid: 4334e644-8bfe-44ca-b99c-37ab21faa2f9
+                                        weight: 13100
+                                        key: doNotCall
+                                        value:
+                                            data:
+                                                type: field
+                                                config:
+                                                    field:
+                                                        fieldName: do_not_call
+                                            modifiers: {  }
+                                    825e3b05-b809-4939-b8e6-9161e9727c0c:
+                                        uuid: 825e3b05-b809-4939-b8e6-9161e9727c0c
+                                        weight: 13200
+                                        key: description
+                                        value:
+                                            data:
+                                                type: fieldCollector
+                                                config:
+                                                    fieldCollector:
+                                                        unprocessedOnly: true
+                                                        ignoreIfEmpty: true
+                                                        exclude: ''
+                                                        include: ''
+                                                        template: '{key}\s=\s{value}\n'
+                                            modifiers: {  }
+                            passthroughFields:
+                                enabled: false
+                            ignoreEmptyFields:
+                                enabled: true
+                            excludeFields:
+                                fields: {  }
+                            prefix:
+                                prefix: ''
+                                action: add
+                        url: 'https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8'
+                        cookies: {  }
+                        headers: {  }
+metaData:
+    name: 'SalesForce Route'
+    version:
+        core: 1.0.0
+        distributor-core: 1.0.0
+        distributor-request: 1.0.0
+        distributor-salesforce: 1.0.0
+    includes: {  }
