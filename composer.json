@@ -26,8 +26,8 @@
     "homepage": "https://www.mediatis.de",
     "require": {
         "php": "^8.2",
-        "digital-marketing-framework/distributor-salesforce": "dev-feature/MFR-136-t3-13",
-        "digital-marketing-framework/typo3-distributor-request": "dev-feature/MFR-136-t3-13",
+        "digital-marketing-framework/distributor-salesforce": "^3.0",
+        "digital-marketing-framework/typo3-distributor-request": "^3.0",
         "typo3/cms-core": "^12.4 || ^13.4"
     },
     "require-dev": {
